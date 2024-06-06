@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
           </nav>
         </header>
         {children}
-        <footer></footer>
+        <footer>Created at Codex</footer>
         
         </body>
     </html>
