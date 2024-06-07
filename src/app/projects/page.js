@@ -3,8 +3,8 @@ import React from 'react'
 export default function ProjectsPage() {
   return (
     <main>
-    <div>Projects Page</div>
-    <p>Check out some of my work! It's been fun creating these. I hope you enjoy.</p>
+    <div className="my-9 text-4xl text-center">Projects Page</div>
+    <p className="my-10 text-3xl text-center">Check out some of my work! It's been fun creating these. I hope you enjoy.</p>
     </main>
   )
 }
@@ -28,3 +28,4 @@ const projects = [
 },
   
 ];
+

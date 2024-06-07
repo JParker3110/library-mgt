@@ -16,9 +16,13 @@ export default function RootLayout({ children }) {
         <header>
           <nav>
             <Link href="/">Home</Link> 
+            <br></br>
             <Link href="/about">About</Link>
+            <br></br>
             <Link href="/projects">Projects</Link>
+            <br></br>
             <Link href="/contact">Contacts</Link>
+            <br></br>
           </nav>
         </header>
         {children}
